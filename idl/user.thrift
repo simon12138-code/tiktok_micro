@@ -95,6 +95,7 @@ struct FollowListResponse{
 
 service UserService {
     UserInfoResponse UserInfo (1:UserInfoRequest req)
+    TokenResponse TokenVerify (1:TokenRequest req)
     UserCreateResponse UserCreate (1:UserCreateRequest req)
     UserLoginResponse UserLogin (1:UserLoginRequest req)
     FriendListResponse FriendList(1:FriendListRequest req)
