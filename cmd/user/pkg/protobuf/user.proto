@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package protobuf;
+option go_package ="/";
+message User {
+  int64 user_id = 1;
+  string user_name = 2;
+  string token = 3;
+  int64 follow_count = 4;
+  int64 follower_count =5;
+  string background_image =6;
+  string avatar =7;
+  string signature = 8;
+}
+
+
+
